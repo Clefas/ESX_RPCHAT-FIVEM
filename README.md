@@ -2,6 +2,8 @@
 # ESX_RPCHAT-REDESING FIVEM
 ESX RPCHAT
 
+Onesync - Onesync Infity Ready
+
 /ooc Local
 /oop Local
 /msg id (Private Message)
