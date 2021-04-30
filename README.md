@@ -4,13 +4,13 @@ ESX RPCHAT
 
 Onesync - Onesync Infity Ready
 
-/ooc Local
-/oop Local
-/msg id (Private Message)
-/ayuda Send global help
-/lsdp - /ems - /taxi - /bennys (Customs jobs advertisements)
-/me Local (Especial Desing)
-/do Local (Especial Desing)
+- /ooc Local
+- /oop Local
+- /msg id (Private Message)
+- /ayuda Send global help
+- /lsdp - /ems - /taxi - /bennys (Customs jobs advertisements)
+- /me Local (Especial Desing)
+- /do Local (Especial Desing)
 
 ##### Requeriments #####
 
