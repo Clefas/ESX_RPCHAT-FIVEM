@@ -2,9 +2,11 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-AddEventHandler('es:invalidCommandHandler', function(source, command_args, user)
-	CancelEvent()
-	TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', _U('unknown_command', command_args[1]) } })
+AddEventHandler('chatMessage', function(source, command_args, user)
+	if string.sub(message, 1, string.len('/')) ~= '/' then
+		CancelEvent()
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', _U('unknown_command', command_args[1]) } })
+	end
 end)
 
 RegisterCommand('ooc', function(source, args, rawCommand)
